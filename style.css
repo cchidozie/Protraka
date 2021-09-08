@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+/* The nav-bar container */
+.p-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky; /* this made the log and nav float when you scroll*/
+  top: 0;
+  background: white;
+  padding: 1em 0em;
+}
+
+.menu {
+  margin-left: 3em;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: linear-gradient(orange, rgb(245, 196, 105));
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: white;
+  margin-left: 3em;
+ 
+}
+
+.action-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: linear-gradient(orange, rgb(245, 196, 105));
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: white;
+}
+
+/* The image and text container */
+.opener-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 5em;
+  gap: 4em;
+  margin-bottom: 10em;
+
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+
+
+.gallery-images {
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
+  
+} 
+
+
+figcaption{
+  font-size: xx-small;
+  flex-direction;
+  position: ;
+}
+
+@media
